@@ -4,11 +4,28 @@
         <link rel="stylesheet" href="./Style.css">
     </head>
     <body>
+        <marquee>
+        <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026">
         <H1>My First Health App</H1>
+        </a>
+    </marquee>
         <div id="First">
         <img src="./Lemonade.png">
         <img src="./Panda.png">
+        <input type="number" id="contact">
+        <button onclick="show_number()">Submit</button>
+        <p id="result">
+
+        </p>
         </div>
+        <script>
+            console.log(n)
+            function show_number(){
+n=document.getElementById("contact").value
+console.log(n)
+document.getElementById("result").innerHTML=n
+            }
+        </script>
         <div id="Second">
         <img src="./Lemonade.png">
         <img src="./Panda.png">
